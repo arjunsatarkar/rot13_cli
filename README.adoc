@@ -1,0 +1,21 @@
+= ROT13 CLI
+
+Portable C99 implementation of https://en.wikipedia.org/wiki/ROT13[ROT13].
+
+== Building
+
+Run `+make+`.
+
+== Usage
+
+....
+$ echo "Carthago delenda est." | ./rot13
+Pneguntb qryraqn rfg.
+$ echo "et lux in tenebris lucet" | ./rot13 | ./rot13
+et lux in tenebris lucet
+....
+
+== License
+
+All code in this project is under the MIT License.
+See LICENSE.txt in the repository root for the text.
